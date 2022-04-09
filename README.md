@@ -96,11 +96,13 @@ The "High Risk" precision rate again was only at 1% with the recall at 69% givin
 
 ### Diliverable 2:
 
-#### Combination (Over and Under) Sampling(<u>SMOTEENN algorithm</u>)
+#### <u>SMOTEENN algorithm</u>
+
+
+SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.
 
 In this section, I tested a combination over- and under-sampling algorithm to determine if the algorithm results in the best performance compared to the other sampling algorithms above. 
 
-I resample the data using the SMOTEENN algorithm. 
 
  - Balance accuracy score
   
@@ -115,6 +117,7 @@ I resample the data using the SMOTEENN algorithm.
    ![SMOOTEEN classification repo](./images/SMOOTEENaccuRepo.PNG)
 
 
-
+The "High Risk" precision rate did not improve was only 1%, however the  F1 score has increased to of 2%.
+"Low Risk" still showed a precision rate of 100% with the recall at 59%.
 
 ## Summary
