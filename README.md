@@ -13,7 +13,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Use Resampling Models to Predict Credit Risk 
 
-Using the information  provided  created yotraining and target variables by completing the following steps:
+Using the information  provided  created training and target variables by completing the following steps:
 
 - Created the training variables by converting the string values into numerical ones using the get_dummies() method.
 
@@ -96,7 +96,9 @@ The "High Risk" precision rate again was only at 1% with the recall at 69% givin
 
 ### Diliverable 2:
 
+
 #### <u>SMOTEENN algorithm</u>
+
 
 
 SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.
@@ -120,4 +122,68 @@ In this section, I tested a combination over- and under-sampling algorithm to de
 The "High Risk" precision rate did not improve was only 1%, however the  F1 score has increased to of 2%.
 "Low Risk" still showed a precision rate of 100% with the recall at 59%.
 
+
+### Diliverable 3:
+
+### Ensemble Learners
+
+In this section, I compared two ensemble algorithms to determine which algorithm results in the best performance. I have trained a Balanced Random Forest Classifier and an Easy Ensemble AdaBoost classifier .
+
+#### <u>Balanced Random Forest Classifier</u>
+
+A balanced random forest randomly under-samples each boostrap sample to balance it.
+
+- Balance accurasy score
+
+   ![Random forest classifier Balance Accu](./images/RandomForestBalanceaccuracy.PNG)
+
+
+- Confusion Metrix
+
+   ![Random forest classifier CM](./images/RandomForestCM.PNG)
+
+- Classification Report
+
+   ![Random forest Classi Repo](./images/RandomForestBalanceaccuracyRepo.PNG)
+
+ 
+ Looking at above figures we can say there is significance impreovement in this module ,Random forest classifier.
+ Balance accuracy score has been increased to 78%.Precision value for high risk incresed from 1%/ to 3% and recall value increased to 70% resusting f1 score of 6%.
+
+ The importance of a feature is computed as the (normalized) total reduction of the criterion brought by that feature.
+
+ ![Feature importency](./images/featureimportency.PNG)
+
+#### <u>Easy Ensemble AdaBoost classifier</u>
+
+This algorithm is known as EasyEnsemble. The classifier is an ensemble of AdaBoost learners trained on different balanced boostrap samples. The balancing is achieved by random under-sampling
+
+- Balance accuracy score
+
+![AdaBoost classifier accuracy score](./images/boostclassifieraccuracy.PNG)
+
+- Confusion Metrix
+
+![AdaBoost classifier CM](./images/boostclassifierCM.PNG)
+
+- Classification Report
+
+![AdaBoost classifier classifier repo](./images/boostclassifierclassiRepo.PNG)
+
+Comparing with all other algorithems this one has given best values with 93% balane accuracy score and 9% highrisk precision recall 92% resulsing 16% of f1 score.
+
 ## Summary
+
+                       accuracy    precision     recall     f1 score
+
+EasyEnsembleClassifer:&nbsp;&nbsp;&nbsp;   93.16%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  9% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;           92% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        16%
+
+RandomForestClassifer:
+
+SMOTE:
+
+SMOOTEN:
+
+RandomOverSampler:
+
+ClusterCentroids:
