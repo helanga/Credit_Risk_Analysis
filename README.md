@@ -174,7 +174,7 @@ Comparing with all other algorithems this one has given best values with 93% bal
 
 ## Summary
 
-                       accuracy    precision     recall     f1 score
+                       accuracy    precision     recall         f1 score
 
 EasyEnsembleClassifer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   93.16%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  9% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;           92% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;       16%
 
