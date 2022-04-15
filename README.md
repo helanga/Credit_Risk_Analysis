@@ -9,6 +9,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Resources
 Dataset from LendingClub: LoanStats_2019Q1
+
 Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
 
 ## Results
