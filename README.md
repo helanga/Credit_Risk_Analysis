@@ -180,7 +180,7 @@ Comparing with all other algorithems this one has given best values with 93% bal
 
 When comparing all six models ,the EasyEnsambleClassifer model is the best model accuracy rate of 93.16% and a 9% precision rate when predicting "High Risk candidates.The sensitivity rate also highest 92% compared to other models.
 
-Models perform best to low for "High risk candidates"
+Models perform best for "High risk candidates"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  accuracy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; precision&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; recall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; f1 score
 
